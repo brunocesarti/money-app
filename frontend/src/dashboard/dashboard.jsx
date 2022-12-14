@@ -9,7 +9,7 @@ import ValueBox from "../common/widget/valueBox";
 import Row from "../common/layout/row";
 
 class Dashboard extends Component {
-  componentWillUnmount() {
+  componentWillMount() {
     this.props.getSummary();
   }
 
