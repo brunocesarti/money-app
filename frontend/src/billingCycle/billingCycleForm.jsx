@@ -61,7 +61,7 @@ class BillingCycleForm extends Component {
           />
           <ItemList
             cols="12 6"
-            list={credits}
+            list={debts}
             readOnly={readOnly}
             field="debts"
             legend="Débitos"
